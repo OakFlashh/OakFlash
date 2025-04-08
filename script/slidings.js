@@ -22,7 +22,6 @@ const movingElements = [
     document.querySelector(".c7"),
     document.querySelector(".c8"),
     document.querySelector(".messageblock"),
-    document.querySelector(".cornerBlob"),
 ];
 
 const movingRightElements = [
