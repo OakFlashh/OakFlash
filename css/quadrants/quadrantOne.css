@@ -1,0 +1,89 @@
+
+.a0 img{
+  position: fixed;
+  left: calc(10vw - 210px);
+  top: calc(51vh + 4px);
+  z-index: 5;
+}
+
+.quadrantOne {  
+  position: absolute;
+  top: 1px;
+  width: 10vw;
+  height: 51vh;
+  border-top: 12px solid  rgb(100, 26, 46);
+  border-left: 12px solid  rgb(100, 26, 46);
+  border-right: 12px solid  rgb(100, 26, 46);
+  border-radius: 110px 110px 0px 0px;
+  background-color: rgb(33, 16, 21);
+  z-index: 5;
+}
+
+
+.a1, .a2, .a3, .a4, .a5 {  
+  position: absolute;
+  top: 1px;
+  width: 10vw;
+  height: 51vh;
+  border-top: 12px solid  rgb(100, 26, 46);
+  border-left: 12px solid  rgb(100, 26, 46);
+  border-right: 12px solid  rgb(100, 26, 46);
+  border-radius: 110px 0px 0px 0px;
+  z-index: 5;
+}
+
+.a2 {  
+  border-radius: 90px 90px 0px 0px;
+}
+
+.a3 {  
+  border-radius: 70px 70px 0px 0px;
+}
+
+.a4 {  
+  border-radius: 50px 50px 0px 0px;
+}
+
+.a5 {  
+  display: flex;
+  border-radius: 30px 30px 0px 0px;
+  flex-direction: column; 
+  align-items: center; 
+  gap: .2vh;
+}
+
+.a6 {
+  position: absolute;
+  left: calc(10vw + 11px);
+  top: calc(51vh + 4px);
+  z-index: 5;
+}
+
+.a7 {
+  position: absolute;
+  left: calc(10vw + 17px);
+  top: 1px;
+  z-index: 5;
+}
+
+.instagram, .pixiv, .discord, .youtube {
+  margin-top: 3vh;
+  height: 3.5vw;
+  width: 3.5vw;
+  border-radius: 50%;
+  background-color: rgb(57, 23, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram img, .pixiv img, .discord img, .youtube img{
+  max-width: 65%;
+  max-height: 65%;
+  object-fit: contain;
+}
+
+.instagram:hover, .pixiv:hover, .discord:hover, .youtube:hover {
+  transform: scale(1.10); 
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}

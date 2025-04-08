@@ -1,0 +1,38 @@
+
+.right, .left {
+  position: absolute;
+  width: 12px;
+  height: 1306vh;
+  background-color: rgb(100, 26, 46);
+  top: 0;
+  z-index: 5;
+}
+
+
+.top, .bottom {
+  position: absolute;
+  width: 100vw;
+  height: 12px;
+  background-color: rgb(100, 26, 46); 
+  z-index: 5;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.flex {
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.bottom {
+  bottom: 0;
+}

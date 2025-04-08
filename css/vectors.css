@@ -1,0 +1,40 @@
+.notch {
+  position: absolute; 
+  top: 11px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 27vw; 
+  height: auto; 
+  z-index: 5;
+}
+
+
+.cornerA, .cornerB {
+  position: absolute;
+  top: 1px;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.cornerC, .cornerD {
+  position: absolute;
+  bottom: 1px;
+  z-index: 5;
+}
+
+.cornerA {
+  left: 7px;
+}
+
+.cornerB {
+  right: 7px;
+}
+
+.cornerC {
+  left: 7px;
+}
+
+.cornerD {
+  right: 7px;
+}
+
